@@ -1,0 +1,45 @@
+
+
+
+body.home {
+    background-image: url('/images/bg-body.png');
+    
+}
+
+/* HEADER */
+.home__header{
+    text-align: center;
+
+}
+
+.home__header__logo img {
+    width: 180px;
+    margin: 15px 0 30px;
+    border-radius: 50%;
+    border:solid 2px var(--colorGrisclaro);
+
+}
+
+.home__header button {
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color : var(--colorGrisoscuro);
+}
+
+
+
+.home__header__menu ul li{
+    background-color: var(--colorGrisoscuro);
+    text-transform: uppercase;
+    margin-top : 1px;
+    padding: 8px 0;
+    
+}
+
+
+
+/* MAIN */
+
+/* FOOTER */

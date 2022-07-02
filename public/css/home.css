@@ -42,13 +42,16 @@ body.home {
 
 /* MAIN */
 
+.home__main{
+    padding: 0 10px;
+}
+
 .home__section--banner{
     display: none;
 }
 
 .home__section--products{
     margin-top: 30px;
-    padding: 0 10px;
     
 }
 
@@ -113,4 +116,26 @@ body.home {
     padding: 8px 0;
     text-align: center;
     
+}
+
+/* MEDIA QUERY | TABLET | 768PX */
+@media (min-width: 768px){
+
+    /*HEADER TABLET*/
+    .home__header button {
+        display: none;    
+    }
+
+    .home__header__menu ul li{
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        padding: 16px 0;
+    }
+
+    .home__section--banner {
+        display: block;
+        width: 100%;
+        
+    }
 }

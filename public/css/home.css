@@ -42,4 +42,75 @@ body.home {
 
 /* MAIN */
 
+.home__section--banner{
+    display: none;
+}
+
+.home__section--products{
+    margin-top: 30px;
+    padding: 0 10px;
+    
+}
+
+.home__section__product{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.home__section__product__photo{
+    position: relative;
+}
+
+.home__section__product__photo--primary{
+    width: 100%;
+}
+
+.home__section__product__photo--sticker{
+    position: absolute;
+    top:0;
+    right: 10px;
+}
+
+.home__section__product__photo--zoom{
+    background-color: rgba(0,0,0,0.4);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 0;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+}
+
+.home__section__product--title {
+    font-size: 1.3rem;
+    margin: 15px 0;
+    
+
+}
+
+.home__section__product--description{
+    color: var(--colorGrisoscuro);
+    margin-bottom: 15px;
+}
+
+.home__section__product--show{
+    background-color: var(--colorGrisoscuro);
+    padding: 8px;
+    display: inline-block;
+
+}
+
+
 /* FOOTER */
+
+.home__footer__menu ul li{
+    background-color: var(--colorRojo);
+    text-transform: capitalize;
+    margin-top : 1px;
+    padding: 8px 0;
+    text-align: center;
+    
+}
